@@ -1,5 +1,7 @@
 ## kbar
 
+# THIS IS A FORK OF THE ORIGINAL WORK FROM [https://github.com/timc1/kbar](https://github.com/timc1/kbar) AND CONTAINS OPINIONATED CHANGES FOR ME, CREDITS TO THE ORIGINAL AUTHOR FOR EVERYTHING
+
 kbar is a simple plug-n-play component to add a fast,
 portable, and extensible command+k interface to your site.
 
