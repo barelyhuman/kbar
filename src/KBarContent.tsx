@@ -15,6 +15,7 @@ export const KBarContent = (props: KBarContentProps) => {
     visualState: state.visualState,
   }));
 
+
   if (visualState === VisualState.hidden) {
     return null;
   }
@@ -40,6 +41,7 @@ const backgroundStyle: React.CSSProperties = {
   display: "flex",
   alignItems: "flex-start",
   justifyContent: "center",
+  top:0, // has to be forced for safari
   width: "100%",
   inset: "0px",
   padding: "14vh 16px 16px",
